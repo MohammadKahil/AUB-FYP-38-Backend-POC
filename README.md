@@ -90,15 +90,15 @@ Expects:
 
 ```json
 {
-    "firstName":"John",
-    "middleName":"J",
-    "lastName": "Doe",
-    "sSN": 376,
-    "phoneNumber": 3253678,
-    "email":"john@example.com",
-    "address":"nowhere's ville",
-    "extraNotes": "this is an optional parameter",
-		"role": "user"
+  "firstName": "John",
+  "middleName": "J",
+  "lastName": "Doe",
+  "sSN": 376,
+  "phoneNumber": 3253678,
+  "email": "john@example.com",
+  "address": "nowhere's ville",
+  "extraNotes": "this is an optional parameter",
+  "role": "user"
 }
 ```
 
@@ -106,7 +106,7 @@ Returns:
 
 ```json
 {
-    "registrationCode": "uuid"
+  "registrationCode": "uuid"
 }
 ```
 
@@ -131,8 +131,8 @@ Expects:
 
 ```json
 {
-    "registrationCode":"valid_uuid",
-    "password":"examplePass"
+  "registrationCode": "valid_uuid",
+  "password": "examplePass"
 }
 ```
 
@@ -174,8 +174,8 @@ Expects:
 
 ```json
 {
-    "username":"john71@example.com",
-    "password":"123ghj5678"
+  "username": "john71@example.com",
+  "password": "123ghj5678"
 }
 ```
 
@@ -183,7 +183,7 @@ Returns:
 
 ```json
 {
-    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySW5mbyI6eyJ1c2VybmFtZSI6ImpvaG43MUBleGFtcGxlLmNvbSIsInJvbGVzIjoiYWRtaW4ifSwiaWF0IjoxNzAwODMwNjcxLCJleHAiOjE3MDA4MzE1NzF9.63DERZvdxFi5PHEC52MbuUlzbSIo_AzvFoseY8rwMQs"
+  "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySW5mbyI6eyJ1c2VybmFtZSI6ImpvaG43MUBleGFtcGxlLmNvbSIsInJvbGVzIjoiYWRtaW4ifSwiaWF0IjoxNzAwODMwNjcxLCJleHAiOjE3MDA4MzE1NzF9.63DERZvdxFi5PHEC52MbuUlzbSIo_AzvFoseY8rwMQs"
 }
 ```
 
@@ -210,7 +210,7 @@ Returns:
 
 ```json
 {
-    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySW5mbyI6eyJ1c2VybmFtZSI6ImpvaG43MUBleGFtcGxlLmNvbSIsInJvbGVzIjoiYWRtaW4ifSwiaWF0IjoxNzAwODMwNjcxLCJleHAiOjE3MDA4MzE1NzF9.63DERZvdxFi5PHEC52MbuUlzbSIo_AzvFoseY8rwMQs"
+  "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySW5mbyI6eyJ1c2VybmFtZSI6ImpvaG43MUBleGFtcGxlLmNvbSIsInJvbGVzIjoiYWRtaW4ifSwiaWF0IjoxNzAwODMwNjcxLCJleHAiOjE3MDA4MzE1NzF9.63DERZvdxFi5PHEC52MbuUlzbSIo_AzvFoseY8rwMQs"
 }
 ```
 
@@ -253,23 +253,23 @@ Returns:
 
 ```json
 [
- {
-        "id": 25,
-        "firstName": "John",
-        "middleName": "J",
-        "lastName": "Doe",
-        "sSN": 376,
-        "phoneNumber": 3253678,
-        "email": "john@example.com",
-        "address":"nowhere's ville",
-        "extraNotes": "this is an optional parameter",
-        "role": "user",
-        "registrationCode": "44d3a21a-244d-4a46-91b8-3b970dd0f314",
-        "registered": false,
-        "createdAt": "2023-11-24T12:52:43.820Z",
-        "updatedAt": "2023-11-24T12:52:43.820Z",
-        "password": null
-    }
+  {
+    "id": 25,
+    "firstName": "John",
+    "middleName": "J",
+    "lastName": "Doe",
+    "sSN": 376,
+    "phoneNumber": 3253678,
+    "email": "john@example.com",
+    "address": "nowhere's ville",
+    "extraNotes": "this is an optional parameter",
+    "role": "user",
+    "registrationCode": "44d3a21a-244d-4a46-91b8-3b970dd0f314",
+    "registered": false,
+    "createdAt": "2023-11-24T12:52:43.820Z",
+    "updatedAt": "2023-11-24T12:52:43.820Z",
+    "password": null
+  }
 ]
 ```
 
@@ -333,7 +333,7 @@ Expects
 
 ```json
 {
-   "firstName": "Jane"
+  "firstName": "Jane"
 }
 ```
 
@@ -406,7 +406,7 @@ Header:
 
 ```json
 {
-"Authorization":"Bearer <access-token>"
+  "Authorization": "Bearer <access-token>"
 }
 ```
 
@@ -414,10 +414,10 @@ Expects:
 
 ```json
 {
-    "owner": 9,
-    "status": "waiting",
-    "phase": "start",
-		"bucket": "this is an optional parameter"
+  "owner": 9,
+  "status": "waiting",
+  "phase": "start",
+  "bucket": "this is an optional parameter"
 }
 ```
 
@@ -451,7 +451,7 @@ Returns:
 
 ```json
 [
-{
+  {
     "id": "31a116f6-ea09-4efd-8f0c-8b9e29137691",
     "createdAt": "2023-11-24T13:24:33.643Z",
     "updatedAt": "2023-11-24T13:24:33.643Z",
@@ -459,7 +459,7 @@ Returns:
     "status": "waiting",
     "phase": "start",
     "bucket": null
-}
+  }
 ]
 ```
 
@@ -513,7 +513,7 @@ Expects
 
 ```json
 {
-   "status": "Complete"
+  "status": "Complete"
 }
 ```
 
@@ -557,3 +557,44 @@ Status codes:
 - 401 Unauthorized
 - 404 Not Found
 - 500 Internal Server Error
+
+## JWT
+
+### Access Token
+
+```json
+{
+  "UserInfo": {
+    "username": "example",
+    "roles": "example"
+  }
+}
+```
+
+### Refresh Token
+
+```json
+{
+  {
+    "username": "example",
+  }
+}
+```
+
+## Login Limiter
+
+```javascript
+
+export const loginLimiter = rateLimit({
+    windowMs: 60 * 1000, // 1 minute
+    max: 5, // Limit each IP to 5 login requests per `window` per minute
+    message:
+        { message: 'Too many login attempts from this IP, please try again after a 60 second pause' },
+    handler: (req: Request, res: Response, next: NextFunction, options:any) => {
+        console.log(`Too Many Requests: ${options.message.message}\t${req.method}\t${req.url}\t${req.headers.origin}`, 'errLog.log')
+        res.status(options.statusCode).send(options.message)
+    },
+    standardHeaders: true, // Return rate limit info in the `RateLimit-*` headers
+})
+
+```
